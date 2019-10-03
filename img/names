@@ -1,0 +1,2 @@
+export KERNEL_IMG="testschedlog-kernel:$(cd img/kernel/src; git rev-parse HEAD)"
+export QEMU_IMG="testschedlog-qemu:$(git rev-parse HEAD)"
