@@ -1,0 +1,10 @@
+build-essential
+bison
+flex
+libelf-dev
+bc
+openssl
+libssl-dev
+qemu
+gdb
+iproute2
