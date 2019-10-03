@@ -40,6 +40,7 @@ test() {
     sudo rm -f "${SSH_KEY}" "${SSH_KEY}.pub"
     sudo ssh-keygen -f "${SSH_KEY}" -P ''
     cid=$(docker run \
+		 -e KDB=yes \
 		 -e MEMORY=$(MEMORY) \
 		 --cpus 2 \
 		 -v "${SSH_KEY}.pub:/root/.ssh/authorized_keys" \
