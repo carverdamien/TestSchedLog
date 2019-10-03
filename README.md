@@ -3,3 +3,5 @@
 ## Requirements
 
 * docker
+* debootstrap
+* qemu-kvm

@@ -1,0 +1,12 @@
+openssh-server
+bison
+flex
+libelf-dev
+bc
+openssl
+libssl-dev
+rt-tests
+libc6-dev
+gcc
+g++
+make
