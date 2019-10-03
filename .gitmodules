@@ -1,0 +1,4 @@
+[submodule "img/kernel/src"]
+	path = img/kernel/src
+	url = https://github.com/carverdamien/SchedLog
+	branch = SchedLog
