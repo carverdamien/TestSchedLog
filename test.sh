@@ -46,6 +46,7 @@ MEMORY() {
 test() {
     sudo rm -f "${SSH_KEY}" "${SSH_KEY}.pub"
     sudo ssh-keygen -f "${SSH_KEY}" -P ''
+    docker image inspect ${QEMU_IMG} > /dev/null # test if img exists
     cid=$(docker run \
 		 -e MEMORY=$(MEMORY) \
 		 --cpus 2 \
